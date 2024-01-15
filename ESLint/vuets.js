@@ -7,7 +7,7 @@
  * Prettier: eslint-config-prettier(主要关闭一些与prettier冲突的配置) eslint-plugin-prettier(用ESLint运行Prettier并报告问题)
  */
 
-module.export = {
+module.exports = {
   /** @表示最高级别 */
   root: true,
   env: {
