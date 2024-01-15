@@ -1,0 +1,2 @@
+# ESLint 忽略文件
+/root/src/*.js
