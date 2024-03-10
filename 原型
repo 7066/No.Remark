@@ -1,0 +1,6 @@
+1，只有函数拥有 prototype 原型对象（拥有一个叫做constructor指回构造函数属性的对象）
+2，Function Object 都是构造函数
+3，所有函数的圆形链 __proto__ 最终指向 Function.prototype（Function 的原型对象）
+   Function.constructor === Function
+4，所有对象的圆形链 __proto__ 最终指向 Object.prototype  （object 的原型对象）
+5，Object.prototype 的原型链 __proto__ 指向 null
